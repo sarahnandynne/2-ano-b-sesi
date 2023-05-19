@@ -26,6 +26,20 @@
     li {
       color: blue;
     }
+
+    .button {
+            padding: 10px 20px;
+            background-color: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: red;
+            transform: scale(1.1);
+        }
   </style>
 </head>
 <body>
@@ -59,5 +73,41 @@
   <p class="dotted">
   <img src="https://i.pinimg.com/474x/50/92/bc/5092bc537531e1e0389069895db9f07f.jpg" id="minha-imagem" alt="Minha Imagem">
 </p>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); 
+            gap: 20px;
+        }
+
+        .grid-item {
+            text-align: center;
+            padding: 10px;
+            background-color: lightgray;
+            border: 1px solid gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="https://png.pngtree.com/png-clipart/20211028/ourmid/pngtree-manicure-nail-color-logo-abstract-png-image_4013846.png" alt="Imagem 1" width="200" height="150">
+            <p>unhas</p>
+        </div>
+        <div class="grid-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgSu-_ZhWLXaAKghfd5k8U7PuJyzRC2hXB7T4I6HK0-L-sDORt9pvE4iGDV2tazo035Lg&usqp=CAU" alt="Imagem 2" width="200" height="150">
+            <p>esmaltes</p>
+        </div>
+        <div class="grid-item">
+            <img src="https://cdnv2.moovin.com.br/grupomundial/imagens/produtos/det/kit-colors-site-577.png" alt="Imagem 3" width="200" height="150">
+            <p>alicate de cutículas</p>
+        </div>
+        
+    </div>
 </body>
 </html>
